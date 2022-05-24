@@ -1,0 +1,10 @@
+body {
+    background-color: blueviolet;
+}
+
+#colorswitch {
+    background-color: gainsboro;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+}
