@@ -1,15 +1,32 @@
 <!DOCTYPE html>
 <html>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <head>
         <title>
             Color Switcher
-            <link rel="stylesheet" href="../../public/css/stylesheet.css">
         </title>
     </head>
     <body>
-        <div id="colorswitch">
-            Press to change color.
-        </div>
+        <header class="header">
+            <h1 class="header__title">Color switcher. Press button.</h1>
+        </header>
+        <section class="section">
+            <input class="switch-button" type="button" value="Switch">
+            <div id="display">
+                <p>_</p>
+                <br>
+                <br>
+                <br>
+                <p>_</p>
+            </div>
+        </section>
+        <header>
+            <script type="application/javascript" src="../js/buttonHandler.js"></script>
+            <script type="application/javascript" src="../js/colorSwitch.js"></script>
+        </header>
+        <script type="module" src="../js/buttonHandler.js"></script>
+        <script type="module" src="../js/colorSwitch.js"></script>
     </body>
 </html>
