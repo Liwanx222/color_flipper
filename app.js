@@ -9,3 +9,6 @@ const port = 8080;
 app.get("/", (req, res) => {
     res.render("pages/index");
 })
+
+
+app.listen(port)

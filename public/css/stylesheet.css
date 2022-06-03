@@ -1,5 +1,9 @@
 body {
     background-color: blueviolet;
+    padding-top: 80%;
+    padding-left: 47%;
+    padding-right: 47%;
+    padding-bottom: 15%
 }
 
 #colorswitch {
@@ -7,4 +11,5 @@ body {
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 32px;
+    border-radius: 5px;
 }
