@@ -1,5 +1,21 @@
+
+body {
+    padding: 50px;
+    text-align: center;
+    color: white;
+    background-color: lightslategray;
+}
+
+.section {
+    margin: 20px;
+}
+
+.switch-button {
+    margin-bottom: 20px;
+}
+
 #display {
-    background-color: white;
-    height: 300px;
+    height: 30%;
     width: 100%;
+    border: 2px dotted black;
 }
